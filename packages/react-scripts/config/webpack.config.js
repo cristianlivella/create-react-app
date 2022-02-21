@@ -543,6 +543,9 @@ module.exports = function (webpackEnv) {
                     'react-scripts',
                   ]
                 ),
+                plugins: [
+                  'babel-plugin-transform-unicode-regexp-runtime',
+                ],
                 // @remove-on-eject-end
                 // Babel sourcemaps are needed for debugging into node_modules
                 // code.  Without the options below, debuggers like VSCode
